@@ -1,16 +1,18 @@
+---
+Autor : Víctor Gutiérrez
+---
 # Título1
-## Tus expectativas antes de aprender POO. Qué creías que ibas a aprender y para qué creías que iba a servir lo que ibas a ver sobre este tema
+## Qué has aprendido durante las dos unidades
+### **_LISTA_**
 
-### *Espectativas*:
+1. He aprendido a **crear estructuras** que engloben varios objetos diferentes y relacionarlos
+1. Trabajar con propiedades,métodos y constructores
+   * crear
+   * evolucionar y variar
+   *  llamar a otras _propiedades,métodos y constructores_
+   * **características** de propiedades públicas privadas protegidas o amigables 
+1. Relaciones entre objetos (agregación, asociación ...)
+1. Comprender el funcionamiento de herencia de una clase a otra y como sobreponer métodos
 
-1. **Desarrollar programas** simples que involucren diferentes objetos
-1. Aprender a definir, evolucionar y comprender las **variables** que envulven a los objetos
-1. Capacidad para trabajar con **interfaces** que relacionen al usuario con la aplicación
+![Imagen de POO](https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/que-es-el-lenguaje-de-programacion-orientada-a-objetos-poo.jpg)
 
-### *USOS*
-
-|      Espectativas      | Uso                                                                             |
-|:----------------------:|:--------------------------------------------------------------------------------|
-| Desarrollar programas  | Formar una estructura y saber desenvolverla en pasos                            |
-|       Variables        | Modificar valores de estas mismas así como conoces su funcionamiento individual |
-|       Interfaces       | Facilitar al usuario el manejo de la aplicación                                 |
