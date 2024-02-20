@@ -68,7 +68,7 @@ Fecha: 20/02/2024
 
 ## Ejercicio5: Presenta un ejemplo de códido de POO con algunas características que presente
 
-* Ejemplo de la contraseña
+* Ejemplo de la contraseña:
    -[x] Sencillo y claro
    -[x] Coherente
    - [x] Reutilizable
