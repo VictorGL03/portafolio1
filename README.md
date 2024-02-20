@@ -66,3 +66,110 @@ Fecha: 20/02/2024
 >Realizado por Víctor Gutiérrez López
 >>Estudiante de DAM en el Juan De Herrera
 
+## Ejercicio5: Presenta un ejemplo de códido de POO con algunas características que presente
+
+* Ejemplo de la contraseña
+   -[x] Sencillo y claro
+   -[x] Coherente
+   - [x] Reutilizable
+   -[ ] Código duplicado
+````
+  public class Password {
+    private String password;
+    private static final int MIN_LENGTH = 12;
+
+
+    public Password(int tamaño){
+        this.setPassword(tamaño);
+    }
+
+    public Password(){
+        this.setPassword(12);
+    }
+
+    public Password(String password) {
+        setPassword(password);
+    }
+
+    public void setPassword(int tamaño){
+        char[] aux;
+
+        if(tamaño < MIN_LENGTH){
+            tamaño = MIN_LENGTH;
+        }
+
+        aux = new char[tamaño];
+
+        int eleccion=1; //controla que toca ahora generar
+        //1, Mayus, 2, Minus, 3, Num, 4, Simbolo
+        this.password = "";
+        for(int i = 0; i < tamaño; i++){
+            eleccion = (eleccion == 4? 1:eleccion+1);
+            switch (eleccion){
+                case 1:
+                    aux[i] = Password.mayúsculaAleatoria();
+                    break;
+                case 2:
+                    aux[i] += Password.minúsculaAleatoria();
+                    break;
+                case 3:
+                    aux[i] += Password.cifraAleatoria();
+                    break;
+                case 4:
+                    aux[i] += Password.símboloAleatorio();
+                    break;
+            }
+        }
+
+        //shuffle de texto para revolver los caracteres
+        for(int i = 0; i < 10* aux.length; i++){
+            int pos1 = (int)(Math.random() * aux.length);
+            int pos2 = (int)(Math.random() * aux.length);
+            char temp = aux[pos1];
+            aux[pos1] = aux[pos2];
+            aux[pos2] = temp;
+        }
+
+        this.password = new String(aux);
+
+    }
+
+    public void setPassword(){
+        this.setPassword(12);
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public static char mayúsculaAleatoria(){
+        return (char) (Math.random() * ('Z' - 'A') + 'A');
+    }
+    public static char minúsculaAleatoria(){
+        return (char) (Math.random() * ('z' - 'a') + 'a');
+    }
+    public static char cifraAleatoria(){
+        return (char)(Math.random() * 9 + '0');
+    }
+
+    public static char símboloAleatorio(){
+        return (char) (Math.random() * (47 - 33) + 33);
+    }
+
+
+    public boolean esFuerte(){
+        boolean mayus = password.matches(".*[A-Z].*");
+        boolean minus = password.matches(".*[a-z].*");
+        boolean simb = password.matches(".*[^a-zA-Z0-9].*");
+        boolean num = password.matches(".*[0-9].*");
+        boolean tam = (password.length() >= MIN_LENGTH);
+        return mayus && minus && simb && num && tam;
+    }
+}
+````
+![Mi perfil de GitHub](https://github.com/VictorGL03)
+
