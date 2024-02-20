@@ -53,14 +53,14 @@ Fecha: 20/02/2024
 ### 
 
 1. ¿Qué has aprendido realmente?
-   -[x]  Trabajar con objetos y definirlas correctamente
-    [x] Relacionar objetos entre sí
+   - [x]  Trabajar con objetos y definirlas correctamente
+   - [x] Relacionar objetos entre sí
 2. ¿Qué utilidades identifico?
-   -[x] Poder simplificar el código reutilizándolo
-   -[x] Me simplifica mucho el manejo de código
+   - [x] Poder simplificar el código reutilizándolo
+   - [x] Me simplifica mucho el manejo de código
 3. ¿Qué cosas positivas he adquirido?
-   -[x] Acercarme a posibles ejemplos prácticos que me ayudan a obtener experiencia
-   -[x] Una gran amplitud de usos y variaciones en el mundo de la programación
+   - [x] Acercarme a posibles ejemplos prácticos que me ayudan a obtener experiencia
+   - [x] Una gran amplitud de usos y variaciones en el mundo de la programación
 
 
 >Realizado por Víctor Gutiérrez López
@@ -69,10 +69,10 @@ Fecha: 20/02/2024
 ## Ejercicio5: Presenta un ejemplo de códido de POO con algunas características que presente
 
 * Ejemplo de la contraseña:
-   -[x] Sencillo y claro
-   -[x] Coherente
+   - [x] Sencillo y claro
+   - [x] Coherente
    - [x] Reutilizable
-   -[ ] Código duplicado
+   - [ ] Código duplicado
 ````
   public class Password {
     private String password;
@@ -171,5 +171,5 @@ Fecha: 20/02/2024
     }
 }
 ````
-![Mi perfil de GitHub](https://github.com/VictorGL03)
+[Mi perfil de GitHub](https://github.com/VictorGL03)
 
