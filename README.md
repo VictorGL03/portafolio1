@@ -44,3 +44,25 @@ Ejercicio: 3 POO GitMind
 |    Password-Artículo     | Es otro tipo de caso real y útil para entender en profundidad métodos y propiedades | Gracias a este ejercicio he mejorado mi programación acerca de constructores, métodos y propiedades, también he podido aplicar programación previa para cumplir con los requisitos de la actividad |
 
 ![Contraseña](https://www.solutions4it.co.uk/wp-content/uploads/2023/08/password-attacks-1080x675.jpg.webp)
+
+---
+Fecha: 20/02/2024
+---
+
+## Ejercicio4: Explica tus conclusiones en este momento sobre estas dos unidades: Qué has aprendido realmente, qué utilidad le ves y di lo más positivo que has adquirido en estas dos unidades y lo que menos te ha gustado.
+### 
+
+1. ¿Qué has aprendido realmente?
+   -[x]  Trabajar con objetos y definirlas correctamente
+    [x] Relacionar objetos entre sí
+2. ¿Qué utilidades identifico?
+   -[x] Poder simplificar el código reutilizándolo
+   -[x] Me simplifica mucho el manejo de código
+3. ¿Qué cosas positivas he adquirido?
+   -[x] Acercarme a posibles ejemplos prácticos que me ayudan a obtener experiencia
+   -[x] Una gran amplitud de usos y variaciones en el mundo de la programación
+
+
+>Realizado por Víctor Gutiérrez López
+>>Estudiante de DAM en el Juan De Herrera
+
